@@ -7,4 +7,3 @@ a simple script to check server performace on any linux server that includes:
 4-Total 5 processes by CPU usage
 5-Total 5 processes by memory usage
 
-https://roadmap.sh/projects/server-stats
