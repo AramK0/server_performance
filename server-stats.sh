@@ -3,14 +3,23 @@
 set -e
 
 #total cpu usage
+echo "****************"
+echo "Total CPU Usage: "
 top -bn1 | grep %Cpu
+echo "****************"
 
 
+
+
+echo "Total memory usage: "
 #Total memory usage
 free -h
+echo "****************"
 
 # Total disk usage
+echo "Total disk usage: "
 df -h
+echo "****************"
 
 # top 5 processes by cpu usage:
 ps -eo pid,comm,%cpu --sort=-%cpu | head -6
